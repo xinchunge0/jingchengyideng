@@ -1,0 +1,23 @@
+1. linux命令行指令操作
+    'ls' 打开当前目录下所有的文件及目录    'ls -l' 详细版当前目录下所有目录及文件   'ls -a'当前目录下所有文件,目录以及隐藏文件跟目录
+    'cd xxx' 切换目录
+    'mkdir xxx' 创建目录     'touch xxx.js' 创建文件
+    'vi xxx.js' 打开文件  编辑后按esc退出输入wq返回之前列表
+    'cat xxx.js' 运行文件
+    'cp xxx.text aaa/xxx1.text' 复制文件 需要复制的文件名 需要复制到的地点及文件名
+    'cp -R xxx aaa/xxx1' 复制文件夹 -R 需要复制的文件夹名 需要复制到的地点及文件夹名
+    'pwd' 查看自己当前在哪个目录下 
+    'rm xxx.text' 删除文件     'rm -r xxx' 删除目录
+    '..' 回到上级目录
+
+2. windows命令行指令操作
+    'dir' 打开当前目录下所有的文件及目录
+    'cd' 切换目录
+    'md'/'mkdir' 创建新目录
+    'echo xxxx>xxx.txt' 创建文件(xxxx为内容)
+    'copy xxx.text aaa/xxx1.text' 复制文件 需要复制的文件名 需要复制到的地点及文件名
+    'del xxx.text' 删除文件      'rd xxx' 删除文件夹
+    'rename xxx.text xxx1.text' 修改名称
+    'ipconfig'获取ip信息
+
+centos
