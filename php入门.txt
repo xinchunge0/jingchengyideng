@@ -1,0 +1,11 @@
+1. 申明变量要用$  $a = '33';
+2. isset() 查看一个变量是否申明
+3. 外部变量要在函数内部使用要加上 global $a;
+4. 设置全局变量  $GLOBALS['b'] = "test" 
+5. 引入文件   require_once('a.php');   include_once('a.php');
+6. 数组: $arrTest = array('0' => "苹果", '1' => "香蕉" );
+7. 获取数组: echo json_encode($arrTest,JSON_UNESCAPED_UNICODE); 后面的参数是为了防止乱码
+8. PHP session 变量用于存储关于用户会话（session）的信息
+    设置session session_start(); $_SESSION['c'] = 2;
+    在另一个页面获取 session_start(); echo $_SESSION['c'];
+9. 在使用form表单传输数据时,PHP可以通过 $_GET['username']; 拿到数据

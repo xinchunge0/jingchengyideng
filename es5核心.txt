@@ -1,0 +1,30 @@
+1. 按值传递:字符串,布尔类型 是按值传递
+    按引用传递:对象,数组,原型链  当复制的数改变时会影响被复制的数
+
+2. Object.create(xxx.prototype)方法是ECMAScript 5中新增的方法，这个方法用于创建一个新对象。
+    被创建的对象继承另一个对象的原型，在创建新对象时可以指定一些属性。
+
+3. 立即执行函数  (function(){})()
+
+4. 闭包 内部函数可以访问外部变量,把函数返回回去
+    闭包可以保护内部的变量 闭包会造成内存泄漏,使用完需要把他置为null
+
+5. 原型链 
+    1) 构造函数里的属性优先级比原型链上的要高
+    2) 面向对象编程的时候JS没有类的概念可以用函数替代
+    3) constructor实际就是对应的函数本身
+    4) prototype按引用传递 Object.create原型链的副本
+
+6. 改变this的方法 call apply bind
+
+7. 函数提升 变量提神 函数提升级别要比变量提升高
+
+8. 严格模式 "use strict" 使用变量前需要声明...
+
+9.数组的操作
+    forEach 对数组进行遍历并且操作 [].forEach(function(item,index,array){})
+    map 处理数组所有值并返回处理后的值,不影响原数组,返回后的数组为新数组 var aaa = [].map(function(){return xxx})
+    filter 数组元素过滤,把返回为true的汇集成新数组  var aaa = [].filter(function(){return xxx})
+    some 找到数组中第一个符合要求的值后就不在执行,返回true/false 用来判断数组中是否有符合要求的值
+    every 匹配每一个元素,直到有一个返回false为止 
+
