@@ -1,0 +1,22 @@
+1. const、let
+
+2. 对象解构
+
+3. 字符串模板
+
+4. 对象和数组
+
+5. 函数
+
+6. 1) Iterator(遍历器)
+
+    2) for(let v of []){}
+
+7. Generator
+
+8. class
+
+9. set、map
+
+10. Module
+
