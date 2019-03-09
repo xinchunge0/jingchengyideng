@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ch">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../jquery.min.js"></script>
+</head>
+
+<body>
+    <script>
+        // function fun(n,o){
+        //     console.log(o);
+        //     return {
+        //         fun:function (m){
+        //             return fun(m,n)
+        //         }
+        //     }
+        // }
+        // var a = fun(0)
+        // a.fun(1);
+        // a.fun(2);
+        // var b = fun(0).fun(1).fun(2).fun(3)
+        // var c = fun(0).fun(1)
+        // c.fun(2)
+        // c.fun(3)
+
+        // old undefined   obj.find->find0
+        // old find0       obj.find->find1
+        // old find1       obj.find->find2
+        function addMethod(obj,name,f){
+            var old = obj[name];
+            obj[name] = function(){
+                if(f.length === arguments.length){
+                    return f.apply(this,arguments)
+                }else{
+                    return old.apply(this,arguments)
+                }
+            }
+        }
+        var people = {name:["张三","李四","网二"]};
+        var find0 = function(){return this.name};
+        var find1 = function(name){
+            var arr = this.name;
+            for(var n = 0;n<arr.length;n++){
+                if(arr[n] == name){
+                    return arr[n]+'在'+n+'位'
+                }
+            }
+        };
+        var find2 = function(name,old){
+            return '两个参数的'
+        };
+        addMethod(people,'find',find0);
+        addMethod(people,'find',find1);
+        addMethod(people,'find',find2);
+        console.log(people.find("李四",'55'))
+
+
+
+ 
+        //继承
+        // var Car = function(color,old){
+        //     this.color = color
+        //     this.old = old
+        //     console.log('666')
+        // }
+        // Car.prototype.sail = function(){
+        //     console.log('aa'+this.color)
+        // }
+        // var Bwm = function(color,old){
+        //     Car.call(this,color,old)
+        // }
+        // var me = Object.create(Car.prototype);
+        // console.log(me)
+        // me.constructor = Bwm
+        // Bwm.prototype = me
+        // var m = new Bwm('44','66')
+        // console.log(m)
+        
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+1. linux命令行指令操作
+    'ls' 打开当前目录下所有的文件及目录    'ls -l' 详细版当前目录下所有目录及文件   'ls -a'当前目录下所有文件,目录以及隐藏文件跟目录
+    'cd xxx' 切换目录
+    'mkdir xxx' 创建目录     'touch xxx.js' 创建文件
+    'vi xxx.js' 打开文件  编辑后按esc退出输入wq返回之前列表
+    'cat xxx.js' 显示文件内容
+    'cp xxx.text aaa/xxx1.text' 复制文件 需要复制的文件名 需要复制到的地点及文件名
+    'cp -R xxx aaa/xxx1' 复制文件夹 -R 需要复制的文件夹名 需要复制到的地点及文件夹名
+    'pwd' 查看自己当前在哪个目录下 
+    'rm xxx.text' 删除文件     'rm -r xxx' 删除目录
+    'cd ..' 回到上级目录
+    'sudo /xxx/xxx.js' 以管理员权限运行文件(路径为根目录)
+    'yum install' 安装软件 yum是源 从源里面安装软件(类似npm)(centOS系统)
+    'apt-get' 安装软件(ubuntu)
+    'shutdown now -h' 关机
+    'tar -zxvf xxx.tar.gz' 解压(.tar.gz是压缩包后缀)
+    'tar -xvvf xxx.tar.bz' 解压(.tar.bz是压缩包后缀)
+    './xxx.js' 运行当前文件夹的某文件
+    'vi' linux编辑器  i进入编辑模式  shift+:进入命令行模式   wq保存退出   q!不保存退出
+
+2. windows命令行指令操作
+    'dir' 打开当前目录下所有的文件及目录
+    'cd' 切换目录
+    'md'/'mkdir' 创建新目录
+    'echo xxxx>xxx.txt' 创建文件(xxxx为内容)
+    'copy xxx.text aaa/xxx1.text' 复制文件 需要复制的文件名 需要复制到的地点及文件名
+    'del xxx.text' 删除文件      'rd xxx' 删除文件夹
+    'rename xxx.text xxx1.text' 修改名称
+    'ipconfig'获取ip信息
+    
+    
+

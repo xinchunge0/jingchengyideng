@@ -1,0 +1,93 @@
+1. 给jQ添加插件
+    jQuery.fn.extend
+    jQuery.extend
+
+    jQuery.fn.extend({
+        a:function(){
+            console.log(123)
+        }
+    });
+    $('').a();  //123
+
+    jQuery.extend({
+        a:123
+    });
+    $.a;  //123
+
+2. 链式调用原理
+    一般情况使用链式调用会报错,在jq中在方法里返回了this就可以使用链式调用
+    var s = {
+        a:function(){
+            console.log(1)
+            return this
+        },
+        b:function(){
+            console.log(2)
+            return this
+        },
+        c:function(){
+            console.log(3)
+            return this
+        }
+    }
+    s.a().b().c()
+
+3. jQ的事件代理
+    新建的元素绑定事件是不成功的,需要代理
+    $('body').on('click','.test',function(){
+
+    })
+    在body里挂方法,来触发事件
+
+4. $('xxx').val('test') //取值/赋值(函数的重载)
+    //old undefined   obj.find->find0
+    //old find0       obj.find->find1
+    //old find1       obj.find->find2
+    function addMethod(obj,name,f){
+        var old = obj[name];
+        obj[name] = function(){
+            if(f.length === arguments.length){
+                return f.apply(this,arguments)
+            }else{
+                return old.apply(this,arguments)
+            }
+        }
+    }
+    var people = {name:["张三","李四","网二"]};
+    var find0 = function(){return this.name};
+    var find1 = function(name){
+        var arr = this.name;
+        for(var n = 0;n<arr.length;n++){
+            if(arr[n] == name){
+                return arr[n]+'在'+n+'位'
+            }
+        }
+    };
+    var find2 = function(name,old){
+        return '两个参数的'
+    };
+    addMethod(people,'find',find0);
+    addMethod(people,'find',find1);
+    addMethod(people,'find',find2);
+    console.log(people.find("李四",'55'))
+
+5. 短路表达式
+    a && b   a,b都是true就执行后面一个(b)   a,b有一个不是true就返回false
+    a || b   a,b有一个true,就返回那个,连个都是返回(a)   ab都不是返回false
+
+
+
+
+
+4. 形参与实参
+    形参，是在定义函数时使用的参数    函数的长度就是形参长度
+    实参：是在调用时传递给函数的参数   函数的arguments长度就是实参长度
+
+5. apply()/call()
+    都是改变函数的this指向   
+    a.apply(b,c)  运行a,但是a里面的this是b的this,c是参数
+    function b(){ a.apply(this,c) } 同上
+    apply参数是以数组传递,call参数是以逗号分隔传递
+
+
+
