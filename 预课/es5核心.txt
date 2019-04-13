@@ -28,3 +28,39 @@
     some 找到数组中第一个符合要求的值后就不在执行,返回true/false 用来判断数组中是否有符合要求的值
     every 匹配每一个元素,直到有一个返回false为止 
 
+//this的指向问题
+1.函数提升 变量提升 函数提升优先于变量提升
+2.当函数名和变量名相同时，如果变量没有被赋值，则函数生效，否则变量生效
+3.var s = function g(){}
+    g是只读的 g只能在函数内部访问
+4.this谁调用指向谁 没人调用他就指向window
+5.this 当函数创建的时候 this指向当前函数的实例
+6.简单的函数声明不能被new
+    var s = {
+        a:function(){
+            console.log(1);
+        },
+        //简单申明方式
+        b(){
+            console.log(2)
+        }
+    };
+    var f = s.a.bind(this);
+    new f();
+
+    var p = s.b.bind(this);
+    new p();//报错
+
+7.es6简写的函数体不能被new this！！！
+8.对象和闭包不能在一起必须有分号
+
+9.  function test(a){
+            this.a = a;
+    }
+    test.prototype.a = 20;
+    test.prototype.init = function(){
+        console.warn(this.a)
+    }
+    var s = new test();
+    s.init()
+10.TDZ 暂时性死区(后面Let的变量在之前不能使用)

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ch">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        //柯里化  传递给函数一部分参数来调用它,让他返回一个函数去处理剩下的函数
+        var checkage = function(min){
+            return function(age){
+                return age>min
+            }
+        }
+        console.log(checkage(18)(20)) //true
+
+        //函数组合
+        const compose = (f, g) => (x => f(g(x)));
+        var first = arr => arr[0];
+        var reverse = arr => arr.reverse();//reverse方法是颠倒数组中元素的顺序
+        var last = compose(first, reverse);
+        console.log(last([1,2,3,4,5])); //5
+
+        //函子  函子是一个特殊的容器,可以将容器内的每一个值通过方法映射到另一个容器里,这个容器叫函子
+        var Container = function(x){
+            this.__value = x;
+        }
+        Container.of = x => new Container(x)
+        Container.prototype.map = function(f){
+            return Container.of(f(this.__value))
+        }
+        Container.of(3).map(x=>x+1).map(x=>x+6)
+
+        //Maybe函子  判断初始传入的值是否是null,如果是不执行map传入的方法,防止报错
+        var Maybe = function(x) { 
+            this.__value = x; 
+        } 
+        Maybe.of = x => new Maybe(x)
+        Maybe.prototype.map = function(f) { 
+            return this.isNothing() ? Maybe.of(null) : Maybe.of(f(this.__value)); 
+        } 
+        Maybe.prototype.isNothing = function() { 
+            return (this.__value === null || this.__value === undefined); 
+        }
+        Maybe.of(null).map(x=>x.a)
+
+        //Either函子  代替try...catch,分左值右值,右值是正常情况下使用,左值是在右值不存在时使用
+        var Either = function(left,right) { 
+            this.left = left; 
+            this.right = right; 
+        } 
+        Either.of = (left,right) => new Either(left,right)
+        Either.prototype.map = function(f) {
+            return this.right? Either.of(this.left,f(this.right)) : Either.of(f(this.left),this.right)
+        } 
+        Either.of(5, 6).map(x=>x+1); 
+        Either.of(5, null).map(x=>x+1);
+
+        //AP函子  本来of里传的是值,现在可以传函数
+        function aaa(x){
+            return x+'lol'
+        }
+        var Ap = function(x) { 
+            this.__value = x; 
+        } 
+        Ap.of = x => new Ap(x)
+        Ap.prototype.ap = function(f){
+            return Ap.of(this.__value(f.__value))
+        }
+        console.log(Ap.of(aaa).ap(Container.of(2)))
+        Ap.of(aaa).ap(Container.of(2))
+
+        //IO函子   混合脏操作
+        import _ from 'lodash'; 
+        var compose = _.flowRight; 
+        var IO = function(f) { 
+            this.__value = f; 
+        } 
+        IO.of = x => new IO(_ => x); 
+        IO.prototype.map = function(f) { 
+            return new IO(compose(f, this.__value)) 
+        }; 
+                
+    </script>
+</body>
+</html>
