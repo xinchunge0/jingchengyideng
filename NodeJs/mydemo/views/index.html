@@ -1,0 +1,15 @@
+{% extends './layout.html' %}
+{% block title %} 图书管理 {% endblock %}
+{% block styles %}
+    <link rel="stylesheet" href="style/index.css">
+{% endblock  %}
+{% block content %}
+    <div>
+        {% for item in data %}
+        <div>[[item.name]]</div>
+        {% endfor %}
+     <div>
+{% endblock %}
+{% block scripts %}
+        <script src="script/index.js"></script>
+{% endblock  %}

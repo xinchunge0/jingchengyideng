@@ -1,0 +1,306 @@
+[2019-04-29T23:15:04.688] [ERROR] cheese - 404报错
+[2019-04-29T23:17:27.184] [ERROR] cheese - ReferenceError: ccc is not defined
+    at D:\appCode\jingchengyideng\NodeJs\mydemo\controllers\indexController.js:7:21
+    at dispatch (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-simple-router\index.js:186:18)
+    at Router._lookup (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-simple-router\index.js:198:12)
+    at D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-simple-router\index.js:138:21
+    at dispatch (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-compose\index.js:42:32)
+    at app.use (D:\appCode\jingchengyideng\NodeJs\mydemo\middleWare\errorHandler.js:13:19)
+    at dispatch (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-compose\index.js:42:32)
+    at app.use (D:\appCode\jingchengyideng\NodeJs\mydemo\middleWare\errorHandler.js:5:23)
+    at dispatch (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-compose\index.js:42:32)
+    at D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-compose\index.js:34:12
+[2019-05-03T16:01:54.042] [ERROR] cheese - 404报错
+[2019-05-03T16:01:59.501] [ERROR] cheese - 404报错
+[2019-05-03T16:01:59.518] [ERROR] cheese - 404报错
+[2019-05-03T16:02:04.304] [ERROR] cheese - 404报错
+[2019-05-03T16:11:09.045] [ERROR] cheese - 404报错
+[2019-05-03T16:11:09.046] [ERROR] cheese - 404报错
+[2019-05-03T16:11:09.058] [ERROR] cheese - 404报错
+[2019-05-03T16:11:09.936] [ERROR] cheese - 404报错
+[2019-05-03T16:11:09.939] [ERROR] cheese - 404报错
+[2019-05-03T16:11:09.946] [ERROR] cheese - 404报错
+[2019-05-03T16:11:10.288] [ERROR] cheese - 404报错
+[2019-05-03T16:11:10.291] [ERROR] cheese - 404报错
+[2019-05-03T16:11:10.297] [ERROR] cheese - 404报错
+[2019-05-03T16:12:04.863] [ERROR] cheese - 404报错
+[2019-05-03T16:12:04.866] [ERROR] cheese - 404报错
+[2019-05-03T16:12:04.872] [ERROR] cheese - 404报错
+[2019-05-03T16:12:05.413] [ERROR] cheese - 404报错
+[2019-05-03T16:12:05.414] [ERROR] cheese - 404报错
+[2019-05-03T16:12:05.420] [ERROR] cheese - 404报错
+[2019-05-03T16:12:05.639] [ERROR] cheese - 404报错
+[2019-05-03T16:12:05.641] [ERROR] cheese - 404报错
+[2019-05-03T16:12:05.648] [ERROR] cheese - 404报错
+[2019-05-03T16:12:11.379] [ERROR] cheese - 404报错
+[2019-05-03T16:12:11.380] [ERROR] cheese - 404报错
+[2019-05-03T16:12:11.389] [ERROR] cheese - 404报错
+[2019-05-03T16:12:11.683] [ERROR] cheese - 404报错
+[2019-05-03T16:12:11.685] [ERROR] cheese - 404报错
+[2019-05-03T16:12:11.693] [ERROR] cheese - 404报错
+[2019-05-03T16:12:11.846] [ERROR] cheese - 404报错
+[2019-05-03T16:12:11.847] [ERROR] cheese - 404报错
+[2019-05-03T16:12:11.854] [ERROR] cheese - 404报错
+[2019-05-03T16:12:12.011] [ERROR] cheese - 404报错
+[2019-05-03T16:12:12.013] [ERROR] cheese - 404报错
+[2019-05-03T16:12:12.020] [ERROR] cheese - 404报错
+[2019-05-03T16:12:12.169] [ERROR] cheese - 404报错
+[2019-05-03T16:12:12.170] [ERROR] cheese - 404报错
+[2019-05-03T16:12:12.178] [ERROR] cheese - 404报错
+[2019-05-03T16:12:21.970] [ERROR] cheese - 404报错
+[2019-05-03T16:12:21.975] [ERROR] cheese - 404报错
+[2019-05-03T16:12:21.982] [ERROR] cheese - 404报错
+[2019-05-03T16:12:29.786] [ERROR] cheese - 404报错
+[2019-05-03T16:12:29.789] [ERROR] cheese - 404报错
+[2019-05-03T16:12:29.798] [ERROR] cheese - 404报错
+[2019-05-03T16:12:30.229] [ERROR] cheese - 404报错
+[2019-05-03T16:12:30.230] [ERROR] cheese - 404报错
+[2019-05-03T16:12:30.238] [ERROR] cheese - 404报错
+[2019-05-03T16:12:30.462] [ERROR] cheese - 404报错
+[2019-05-03T16:12:30.463] [ERROR] cheese - 404报错
+[2019-05-03T16:12:30.470] [ERROR] cheese - 404报错
+[2019-05-03T16:13:07.099] [ERROR] cheese - 404报错
+[2019-05-03T16:13:07.100] [ERROR] cheese - 404报错
+[2019-05-03T16:13:07.110] [ERROR] cheese - 404报错
+[2019-05-03T16:13:07.787] [ERROR] cheese - 404报错
+[2019-05-03T16:13:07.790] [ERROR] cheese - 404报错
+[2019-05-03T16:13:07.795] [ERROR] cheese - 404报错
+[2019-05-03T16:13:08.002] [ERROR] cheese - 404报错
+[2019-05-03T16:13:08.005] [ERROR] cheese - 404报错
+[2019-05-03T16:13:08.011] [ERROR] cheese - 404报错
+[2019-05-03T16:13:08.170] [ERROR] cheese - 404报错
+[2019-05-03T16:13:08.172] [ERROR] cheese - 404报错
+[2019-05-03T16:13:08.178] [ERROR] cheese - 404报错
+[2019-05-03T16:15:04.136] [ERROR] cheese - 404报错
+[2019-05-03T16:19:12.938] [ERROR] cheese - 404报错
+[2019-05-03T16:19:13.451] [ERROR] cheese - 404报错
+[2019-05-03T16:19:13.610] [ERROR] cheese - 404报错
+[2019-05-03T16:23:03.170] [ERROR] cheese - 404报错
+[2019-05-03T16:23:03.695] [ERROR] cheese - 404报错
+[2019-05-03T16:23:03.884] [ERROR] cheese - 404报错
+[2019-05-03T16:23:04.044] [ERROR] cheese - 404报错
+[2019-05-05T22:36:49.414] [ERROR] cheese - 404报错
+[2019-05-05T22:56:26.074] [ERROR] cheese - 404报错
+[2019-05-05T22:56:33.084] [ERROR] cheese - 404报错
+[2019-05-05T23:03:30.518] [ERROR] cheese - 404报错
+[2019-05-05T23:03:32.910] [ERROR] cheese - 404报错
+[2019-05-05T23:03:33.077] [ERROR] cheese - 404报错
+[2019-05-05T23:03:33.270] [ERROR] cheese - 404报错
+[2019-05-05T23:03:33.428] [ERROR] cheese - 404报错
+[2019-05-05T23:04:01.312] [ERROR] cheese - 404报错
+[2019-05-05T23:04:02.004] [ERROR] cheese - 404报错
+[2019-05-05T23:04:02.210] [ERROR] cheese - 404报错
+[2019-05-05T23:04:02.343] [ERROR] cheese - 404报错
+[2019-05-05T23:04:08.734] [ERROR] cheese - 404报错
+[2019-05-05T23:14:34.655] [ERROR] cheese - 404报错
+[2019-05-05T23:15:27.850] [ERROR] cheese - 404报错
+[2019-05-05T23:19:57.937] [ERROR] cheese - 404报错
+[2019-05-05T23:19:59.214] [ERROR] cheese - 404报错
+[2019-05-05T23:19:59.385] [ERROR] cheese - 404报错
+[2019-05-05T23:19:59.546] [ERROR] cheese - 404报错
+[2019-05-05T23:19:59.714] [ERROR] cheese - 404报错
+[2019-05-05T23:19:59.879] [ERROR] cheese - 404报错
+[2019-05-05T23:20:00.048] [ERROR] cheese - 404报错
+[2019-05-05T23:20:00.212] [ERROR] cheese - 404报错
+[2019-05-05T23:20:00.380] [ERROR] cheese - 404报错
+[2019-05-05T23:20:00.532] [ERROR] cheese - 404报错
+[2019-05-05T23:31:11.744] [ERROR] cheese - 404报错
+[2019-05-05T23:33:13.549] [ERROR] cheese - 404报错
+[2019-05-05T23:33:14.111] [ERROR] cheese - 404报错
+[2019-05-05T23:33:14.295] [ERROR] cheese - 404报错
+[2019-05-05T23:33:14.442] [ERROR] cheese - 404报错
+[2019-05-05T23:33:14.586] [ERROR] cheese - 404报错
+[2019-05-05T23:33:14.730] [ERROR] cheese - 404报错
+[2019-05-05T23:33:31.983] [ERROR] cheese - 404报错
+[2019-05-05T23:33:33.482] [ERROR] cheese - 404报错
+[2019-05-05T23:33:33.688] [ERROR] cheese - 404报错
+[2019-05-05T23:33:33.866] [ERROR] cheese - 404报错
+[2019-05-05T23:33:34.036] [ERROR] cheese - 404报错
+[2019-05-05T23:33:34.196] [ERROR] cheese - 404报错
+[2019-05-05T23:33:34.361] [ERROR] cheese - 404报错
+[2019-05-05T23:33:34.513] [ERROR] cheese - 404报错
+[2019-05-05T23:33:34.697] [ERROR] cheese - 404报错
+[2019-05-05T23:33:34.856] [ERROR] cheese - 404报错
+[2019-05-05T23:33:35.022] [ERROR] cheese - 404报错
+[2019-05-05T23:33:35.188] [ERROR] cheese - 404报错
+[2019-05-05T23:33:35.354] [ERROR] cheese - 404报错
+[2019-05-05T23:33:35.514] [ERROR] cheese - 404报错
+[2019-05-07T22:15:45.493] [ERROR] cheese - 404报错
+[2019-05-07T22:15:49.755] [ERROR] cheese - 404报错
+[2019-05-07T22:15:50.234] [ERROR] cheese - 404报错
+[2019-05-07T22:15:50.408] [ERROR] cheese - 404报错
+[2019-05-07T22:15:50.553] [ERROR] cheese - 404报错
+[2019-05-07T22:16:05.210] [ERROR] cheese - 404报错
+[2019-05-07T22:16:05.258] [ERROR] cheese - 404报错
+[2019-05-07T22:16:07.138] [ERROR] cheese - 404报错
+[2019-05-07T22:35:32.281] [ERROR] cheese - 404报错
+[2019-05-07T22:35:33.297] [ERROR] cheese - 404报错
+[2019-05-07T22:35:33.449] [ERROR] cheese - 404报错
+[2019-05-07T22:35:33.600] [ERROR] cheese - 404报错
+[2019-05-07T22:35:33.754] [ERROR] cheese - 404报错
+[2019-05-08T00:40:45.427] [ERROR] cheese - 404报错
+[2019-05-08T00:40:48.636] [ERROR] cheese - TypeError: safaRequest.fatch is not a function
+    at Index.getData (D:\appCode\jingchengyideng\NodeJs\mydemo\models\index.js:10:28)
+    at D:\appCode\jingchengyideng\NodeJs\mydemo\controllers\indexController.js:7:40
+    at dispatch (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-simple-router\index.js:186:18)
+    at Router._lookup (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-simple-router\index.js:198:12)
+    at D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-simple-router\index.js:138:21
+    at dispatch (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-compose\index.js:42:32)
+    at app.use (D:\appCode\jingchengyideng\NodeJs\mydemo\middleWare\errorHandler.js:13:19)
+    at dispatch (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-compose\index.js:42:32)
+    at app.use (D:\appCode\jingchengyideng\NodeJs\mydemo\middleWare\errorHandler.js:5:23)
+    at dispatch (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-compose\index.js:42:32)
+[2019-05-08T00:40:48.697] [ERROR] cheese - 404报错
+[2019-05-08T00:40:55.274] [ERROR] cheese - 404报错
+[2019-05-08T00:40:55.298] [ERROR] cheese - 404报错
+[2019-05-08T00:41:04.890] [ERROR] cheese - TypeError: safaRequest.fatch is not a function
+    at Index.getData (D:\appCode\jingchengyideng\NodeJs\mydemo\models\index.js:10:28)
+    at D:\appCode\jingchengyideng\NodeJs\mydemo\controllers\indexController.js:7:40
+    at dispatch (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-simple-router\index.js:186:18)
+    at Router._lookup (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-simple-router\index.js:198:12)
+    at D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-simple-router\index.js:138:21
+    at dispatch (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-compose\index.js:42:32)
+    at app.use (D:\appCode\jingchengyideng\NodeJs\mydemo\middleWare\errorHandler.js:13:19)
+    at dispatch (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-compose\index.js:42:32)
+    at app.use (D:\appCode\jingchengyideng\NodeJs\mydemo\middleWare\errorHandler.js:5:23)
+    at dispatch (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-compose\index.js:42:32)
+[2019-05-08T00:41:04.907] [ERROR] cheese - 404报错
+[2019-05-08T00:42:34.874] [ERROR] cheese - TypeError: safaRequest.fatch is not a function
+    at Index.getData (D:\appCode\jingchengyideng\NodeJs\mydemo\models\index.js:10:28)
+    at D:\appCode\jingchengyideng\NodeJs\mydemo\controllers\indexController.js:7:40
+    at dispatch (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-simple-router\index.js:186:18)
+    at Router._lookup (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-simple-router\index.js:198:12)
+    at D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-simple-router\index.js:138:21
+    at dispatch (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-compose\index.js:42:32)
+    at app.use (D:\appCode\jingchengyideng\NodeJs\mydemo\middleWare\errorHandler.js:13:19)
+    at dispatch (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-compose\index.js:42:32)
+    at app.use (D:\appCode\jingchengyideng\NodeJs\mydemo\middleWare\errorHandler.js:5:23)
+    at dispatch (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-compose\index.js:42:32)
+[2019-05-08T00:42:34.887] [ERROR] cheese - 404报错
+[2019-05-08T00:42:54.968] [ERROR] cheese - TypeError: safaRequest.fatch is not a function
+    at Index.getData (D:\appCode\jingchengyideng\NodeJs\mydemo\models\index.js:10:28)
+    at D:\appCode\jingchengyideng\NodeJs\mydemo\controllers\indexController.js:7:40
+    at dispatch (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-simple-router\index.js:186:18)
+    at Router._lookup (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-simple-router\index.js:198:12)
+    at D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-simple-router\index.js:138:21
+    at dispatch (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-compose\index.js:42:32)
+    at app.use (D:\appCode\jingchengyideng\NodeJs\mydemo\middleWare\errorHandler.js:13:19)
+    at dispatch (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-compose\index.js:42:32)
+    at app.use (D:\appCode\jingchengyideng\NodeJs\mydemo\middleWare\errorHandler.js:5:23)
+    at dispatch (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-compose\index.js:42:32)
+[2019-05-08T00:42:54.981] [ERROR] cheese - 404报错
+[2019-05-08T00:43:00.421] [ERROR] cheese - 404报错
+[2019-05-08T00:43:15.202] [ERROR] cheese - TypeError: safaRequest.fatch is not a function
+    at Index.getData (D:\appCode\jingchengyideng\NodeJs\mydemo\models\index.js:10:28)
+    at D:\appCode\jingchengyideng\NodeJs\mydemo\controllers\indexController.js:7:40
+    at dispatch (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-simple-router\index.js:186:18)
+    at Router._lookup (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-simple-router\index.js:198:12)
+    at D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-simple-router\index.js:138:21
+    at dispatch (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-compose\index.js:42:32)
+    at app.use (D:\appCode\jingchengyideng\NodeJs\mydemo\middleWare\errorHandler.js:13:19)
+    at dispatch (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-compose\index.js:42:32)
+    at app.use (D:\appCode\jingchengyideng\NodeJs\mydemo\middleWare\errorHandler.js:5:23)
+    at dispatch (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-compose\index.js:42:32)
+[2019-05-08T00:43:15.224] [ERROR] cheese - 404报错
+[2019-05-08T00:43:15.654] [ERROR] cheese - TypeError: safaRequest.fatch is not a function
+    at Index.getData (D:\appCode\jingchengyideng\NodeJs\mydemo\models\index.js:10:28)
+    at D:\appCode\jingchengyideng\NodeJs\mydemo\controllers\indexController.js:7:40
+    at dispatch (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-simple-router\index.js:186:18)
+    at Router._lookup (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-simple-router\index.js:198:12)
+    at D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-simple-router\index.js:138:21
+    at dispatch (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-compose\index.js:42:32)
+    at app.use (D:\appCode\jingchengyideng\NodeJs\mydemo\middleWare\errorHandler.js:13:19)
+    at dispatch (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-compose\index.js:42:32)
+    at app.use (D:\appCode\jingchengyideng\NodeJs\mydemo\middleWare\errorHandler.js:5:23)
+    at dispatch (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-compose\index.js:42:32)
+[2019-05-08T00:43:15.666] [ERROR] cheese - 404报错
+[2019-05-08T00:43:47.632] [ERROR] cheese - TypeError: safaRequest.fatch is not a function
+    at Index.getData (D:\appCode\jingchengyideng\NodeJs\mydemo\models\index.js:10:28)
+    at D:\appCode\jingchengyideng\NodeJs\mydemo\controllers\indexController.js:8:40
+    at dispatch (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-simple-router\index.js:186:18)
+    at Router._lookup (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-simple-router\index.js:198:12)
+    at D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-simple-router\index.js:138:21
+    at dispatch (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-compose\index.js:42:32)
+    at app.use (D:\appCode\jingchengyideng\NodeJs\mydemo\middleWare\errorHandler.js:13:19)
+    at dispatch (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-compose\index.js:42:32)
+    at app.use (D:\appCode\jingchengyideng\NodeJs\mydemo\middleWare\errorHandler.js:5:23)
+    at dispatch (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-compose\index.js:42:32)
+[2019-05-08T00:43:47.650] [ERROR] cheese - 404报错
+[2019-05-08T00:45:30.387] [ERROR] cheese - TypeError: safaRequest.fatch is not a function
+    at Index.getData (D:\appCode\jingchengyideng\NodeJs\mydemo\models\index.js:10:28)
+    at D:\appCode\jingchengyideng\NodeJs\mydemo\controllers\indexController.js:7:31
+    at dispatch (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-simple-router\index.js:186:18)
+    at Router._lookup (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-simple-router\index.js:198:12)
+    at D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-simple-router\index.js:138:21
+    at dispatch (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-compose\index.js:42:32)
+    at app.use (D:\appCode\jingchengyideng\NodeJs\mydemo\middleWare\errorHandler.js:13:19)
+    at dispatch (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-compose\index.js:42:32)
+    at app.use (D:\appCode\jingchengyideng\NodeJs\mydemo\middleWare\errorHandler.js:5:23)
+    at dispatch (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-compose\index.js:42:32)
+[2019-05-08T00:45:30.413] [ERROR] cheese - 404报错
+[2019-05-08T00:45:34.273] [ERROR] cheese - TypeError: safaRequest.fatch is not a function
+    at Index.getData (D:\appCode\jingchengyideng\NodeJs\mydemo\models\index.js:10:28)
+    at D:\appCode\jingchengyideng\NodeJs\mydemo\controllers\indexController.js:7:31
+    at dispatch (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-simple-router\index.js:186:18)
+    at Router._lookup (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-simple-router\index.js:198:12)
+    at D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-simple-router\index.js:138:21
+    at dispatch (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-compose\index.js:42:32)
+    at app.use (D:\appCode\jingchengyideng\NodeJs\mydemo\middleWare\errorHandler.js:13:19)
+    at dispatch (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-compose\index.js:42:32)
+    at app.use (D:\appCode\jingchengyideng\NodeJs\mydemo\middleWare\errorHandler.js:5:23)
+    at dispatch (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-compose\index.js:42:32)
+[2019-05-08T00:45:34.284] [ERROR] cheese - 404报错
+[2019-05-08T00:46:22.927] [ERROR] cheese - 404报错
+[2019-05-08T00:47:09.276] [ERROR] cheese - 404报错
+[2019-05-08T00:47:09.696] [ERROR] cheese - 404报错
+[2019-05-08T00:47:09.876] [ERROR] cheese - 404报错
+[2019-05-08T00:47:51.979] [ERROR] cheese - 404报错
+[2019-05-08T00:48:10.807] [ERROR] cheese - 404报错
+[2019-05-08T00:49:28.577] [ERROR] cheese - 404报错
+[2019-05-08T00:53:14.411] [ERROR] cheese - 404报错
+[2019-05-08T00:53:45.805] [ERROR] cheese - 404报错
+[2019-05-08T00:54:19.571] [ERROR] cheese - 404报错
+[2019-05-08T00:54:20.637] [ERROR] cheese - 404报错
+[2019-05-08T00:54:20.843] [ERROR] cheese - 404报错
+[2019-05-08T00:54:45.042] [ERROR] cheese - 404报错
+[2019-05-08T00:54:45.410] [ERROR] cheese - 404报错
+[2019-05-08T00:54:45.571] [ERROR] cheese - 404报错
+[2019-05-08T00:54:45.710] [ERROR] cheese - 404报错
+[2019-05-08T00:54:45.863] [ERROR] cheese - 404报错
+[2019-05-08T00:54:47.844] [ERROR] cheese - 404报错
+[2019-05-08T00:54:48.011] [ERROR] cheese - 404报错
+[2019-05-08T00:54:48.136] [ERROR] cheese - 404报错
+[2019-05-08T00:54:48.312] [ERROR] cheese - 404报错
+[2019-05-08T00:55:19.453] [ERROR] cheese - 404报错
+[2019-05-08T00:55:55.858] [ERROR] cheese - 404报错
+[2019-05-08T00:56:03.734] [ERROR] cheese - 404报错
+[2019-05-11T17:43:52.186] [ERROR] cheese - 404报错
+[2019-05-11T17:57:08.386] [ERROR] cheese - 404报错
+[2019-05-11T17:57:12.336] [ERROR] cheese - 404报错
+[2019-05-11T18:01:08.056] [ERROR] cheese - 404报错
+[2019-05-11T18:02:48.798] [ERROR] cheese - 404报错
+[2019-05-11T23:42:16.455] [ERROR] cheese - 404报错
+[2019-05-11T23:42:18.568] [ERROR] cheese - 404报错
+[2019-05-11T23:49:09.564] [ERROR] cheese - ReferenceError: parmas is not defined
+    at D:\appCode\jingchengyideng\NodeJs\mydemo\controllers\indexController.js:22:13
+    at dispatch (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-simple-router\index.js:186:18)
+    at Router._lookup (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-simple-router\index.js:198:12)
+    at D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-simple-router\index.js:138:21
+    at dispatch (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-compose\index.js:42:32)
+    at app.use (D:\appCode\jingchengyideng\NodeJs\mydemo\middleWare\errorHandler.js:13:19)
+    at dispatch (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-compose\index.js:42:32)
+    at app.use (D:\appCode\jingchengyideng\NodeJs\mydemo\middleWare\errorHandler.js:5:23)
+    at dispatch (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-compose\index.js:42:32)
+    at D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-compose\index.js:34:12
+[2019-05-11T23:49:09.583] [ERROR] cheese - 404报错
+[2019-05-11T23:52:06.934] [ERROR] cheese - ReferenceError: parmas is not defined
+    at D:\appCode\jingchengyideng\NodeJs\mydemo\controllers\indexController.js:22:13
+    at dispatch (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-simple-router\index.js:186:18)
+    at Router._lookup (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-simple-router\index.js:198:12)
+    at D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-simple-router\index.js:138:21
+    at dispatch (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-compose\index.js:42:32)
+    at app.use (D:\appCode\jingchengyideng\NodeJs\mydemo\middleWare\errorHandler.js:13:19)
+    at dispatch (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-compose\index.js:42:32)
+    at app.use (D:\appCode\jingchengyideng\NodeJs\mydemo\middleWare\errorHandler.js:5:23)
+    at dispatch (D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-compose\index.js:42:32)
+    at D:\appCode\jingchengyideng\NodeJs\mydemo\node_modules\koa-compose\index.js:34:12

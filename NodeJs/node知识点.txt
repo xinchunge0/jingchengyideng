@@ -1,0 +1,14 @@
+--save:开发阶段的依赖包
+--save-dev:生产阶段的依赖包
+
+koa:node的一个框架
+koa-simple-router:koa的一个路由插件
+koa-static:koa的静态资源管理
+supervisor:一个热更新的依赖包
+swig:一个模板引擎
+log4js:一个日志处理系统
+cross-env:能跨平台地设置及使用环境变量
+lodash:一个前端工具库
+babel:一个转码工具
+SystemJS:万能模块加载器（当浏览器不支持es6模块加载时使用）
+fetch:浏览器的一种新的请求数据方式,优先级比ajax高

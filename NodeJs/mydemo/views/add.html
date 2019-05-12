@@ -1,0 +1,27 @@
+{% extends './layout.html' %}
+{% block title %} 图书添加页 {% endblock %}
+{% block styles %}
+    <link rel="stylesheet" href="style/add.css">
+{% endblock  %}
+{% block content %}
+    <div>
+        <h1>[[data]]</h1>
+     <div>
+{% endblock %}
+{% block scripts %}
+        <script type="nomodule">
+            console.log("支持模块化")
+            import("/script/add.js").then((_)=>{
+                const create = new _.default
+                create.fn()
+            })
+        </script>
+        <script type="module" src="https://cdn.bootcss.com/systemjs/3.1.6/system.js"></script>
+        <script type="module">
+            System.import("/script/add-bundle.js").then((_)=>{
+                const create = new _.default
+                create.fn()
+            })
+        </script>
+
+{% endblock  %}
