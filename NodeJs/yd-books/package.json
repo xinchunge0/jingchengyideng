@@ -17,7 +17,7 @@
     "@babel/core": "^7.4.3",
     "@babel/plugin-transform-modules-systemjs": "^7.4.0",
     "@babel/preset-env": "^7.4.3",
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "catharsis": "^0.8.9",
     "cross-env": "^5.2.0",
     "cross-spawn": "^6.0.5",
