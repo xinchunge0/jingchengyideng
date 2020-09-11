@@ -30,7 +30,7 @@
     "lodash": "^4.17.11",
     "log4js": "^4.1.0",
     "mime-db": "^1.39.0",
-    "node-fetch": "^2.5.0",
+    "node-fetch": "^2.6.1",
     "supervisor": "^0.12.0"
   }
 }
